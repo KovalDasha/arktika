@@ -20,7 +20,7 @@ body{
 }
 .header_menu{
   position: absolute;
-  top: 30px;
+  top: 25px;
   right: 10%;
   width: 30px;
   height: 30px;
@@ -223,7 +223,10 @@ body{
 
 
 
-
+.phone_number{
+  margin-left: 5px;
+  padding: 0;
+}
 .phone_number_inner{
   display: flex;
   flex-direction: row;

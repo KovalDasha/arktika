@@ -212,10 +212,12 @@ body{
     opacity: 1;
   }
 } */
-
+.zamovlenya{
+  text-align: center;
+}
 .zamovlenya_text{
   color: #0c24ad;
-  text-align: center;
+  /* text-align: center; */
 }
 
 

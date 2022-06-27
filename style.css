@@ -213,13 +213,19 @@ body{
   }
 } */
 .zamovlenya{
+  color: #0c24ad;
   text-align: center;
+  font-size: 16px;
 }
 .zamovlenya_text{
+  padding-left: 5px;
   color: #0c24ad;
+  font-size: 14px;
   /* text-align: center; */
 }
-
+.number_content_inner{
+  color: black;
+}
 
 
 

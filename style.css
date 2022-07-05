@@ -52,8 +52,11 @@ body{
 .video{
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
-  width: 90vh;
+  padding: 20px;
+
+}
+.video_inner{
+
 }
 .footer_text{
   margin-top: 30px;

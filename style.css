@@ -147,3 +147,26 @@ body{
   text-decoration: none;
   color: black;
 }
+
+
+/* products */
+
+.content_products_inner{
+  display: flex;
+}
+.content_products_title{
+  text-align: center;
+  margin: 5px;
+  color: #0c24ad;
+  margin-top: 20px;
+}
+.content_products_img_inner{
+  height: 150px;
+}
+.content_products_price_balon{
+  text-align: center;
+}
+.content_products_text_inner{
+  font-size: 17px;
+  margin: 5px 40px;
+}

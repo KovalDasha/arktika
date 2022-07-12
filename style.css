@@ -233,7 +233,7 @@ body{
   margin-top: 15px;
   margin-left: 15px;
   display: block;
-  height: calc(2.25rem + px);
+  height: calc(2.25rem + 1px);
   font-size: 1rem;
   color: #000000;
   background-color: var(--main-color);

@@ -250,6 +250,7 @@ body{
 .content_certificates_title{
   text-align: center;
   color: var(--blue-color);
+  margin: 15px 5px 0px 5px;
 }
 .content_certificates_inner{
   display: flex;

@@ -26,6 +26,10 @@ body{
   width: 30px;
   height: 30px;
 }
+.akcia{
+  width: 90%;
+  margin-left: 5%;
+}
 .zamovlenya{
   color: #0c24ad;
   text-align: center;
@@ -217,6 +221,7 @@ body{
 .content_form_input{
   margin-left: 5px;
   display: block;
+  width: 90%;
   height: calc(2.25rem + 2px);
   font-size: 1rem;
   color: #000000;
@@ -228,7 +233,7 @@ body{
   margin-top: 15px;
   margin-left: 15px;
   display: block;
-  height: calc(2.25rem + 1px);
+  height: calc(2.25rem + px);
   font-size: 1rem;
   color: #000000;
   background-color: var(--main-color);

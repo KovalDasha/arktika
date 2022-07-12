@@ -215,9 +215,23 @@ body{
   margin-left: 25px;
 }
 .content_form_input{
-  margin-left: 15px;
+  margin-left: 5px;
+  display: block;
+  height: calc(2.25rem + 2px);
+  font-size: 1rem;
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid var(--blue-color);
+  border-radius: 0.25rem;
 }
 .content_form_send{
   margin-top: 15px;
   margin-left: 15px;
+  display: block;
+  height: calc(2.25rem + 1px);
+  font-size: 1rem;
+  color: #000000;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 0.25rem;
 }

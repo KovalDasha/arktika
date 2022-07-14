@@ -261,3 +261,21 @@ body{
   width: 45%;
   margin-top: 8px;
 }
+
+
+
+
+
+
+/* franchising */
+
+.franchising_titel_inner{
+  text-align: center;
+  color: var(--blue-color);
+}
+.franchising_text_inner{
+  margin: 0 8px 0 8px;
+}
+.franchising_img_inner{
+  float: right;
+}

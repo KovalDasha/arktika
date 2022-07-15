@@ -270,6 +270,7 @@ body{
   margin-right: 15px;
 }
 .about_water_text_right{
+  margin: 0 ;
   margin-right: 15px;
   text-align: right;
 }

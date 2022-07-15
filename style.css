@@ -219,7 +219,9 @@ body{
   margin-left: 25px;
 }
 .content_form_input{
-  margin-left: 5px;
+  /* margin-left: 5px; */
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   width: 90%;
   height: calc(2.25rem + 2px);
@@ -227,18 +229,19 @@ body{
   color: #000000;
   background-color: #fff;
   border: 1px solid var(--blue-color);
-  border-radius: 0.25rem;
+  border-radius: 3%;
 }
 .content_form_send{
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
-  height: calc(2.25rem + 1px);
+  height: calc(2.25rem + 2px);
   font-size: 1rem;
   color: #000000;
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
-  border-radius: 0.25rem;
+  border-radius: 6%;
 }
 
 

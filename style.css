@@ -249,6 +249,41 @@ body{
 
 
 
+/* about_water */
+
+.about_water_titel_top{
+  color: var(--blue-color);
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.about_water_titel{
+  color: var(--blue-color);
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+.about_water_text{
+  margin: 15px;
+}
+.about_water_list{
+  margin-right: 15px;
+}
+.about_water_text_right{
+  margin-right: 15px;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* certificates */
 .content_certificates_title{
   text-align: center;

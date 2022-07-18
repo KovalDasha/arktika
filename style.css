@@ -2,6 +2,7 @@
   --main-color: #cddafa;
   --blue-color: #0c24ad;
   --white-color: white;
+  --fonts-family: 'Comfortaa', cursive;
 }
 body{
   margin: 0;
@@ -34,13 +35,13 @@ body{
   color: #0c24ad;
   text-align: center;
   font-size: 16px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family);
 }
 .zamovlenya_text{
   padding-left: 5px;
   color: #0c24ad;
   font-size: 14px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family);
 }
 .number_content_inner{
   color: black;
@@ -53,7 +54,7 @@ body{
   display: flex;
   flex-direction: row;
   list-style: none;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family);
 }
 .video{
   display: flex;
@@ -66,7 +67,7 @@ body{
   margin-top: 30px;
   text-align: center;
   font-size: 12px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .footer_inner{
   background-image: url("img/futer.jpg");
@@ -150,7 +151,7 @@ body{
 .popup_menu_link{
   text-decoration: none;
   color: black;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 
 
@@ -184,7 +185,7 @@ body{
   color: var(--blue-color);
   margin: 0;
   padding: 0;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .content_products_img{
   display: flex;
@@ -194,7 +195,7 @@ body{
   border-top: solid 2px #cecccc;
   padding-top: 8px;
   padding-bottom: 5px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .content_products_img_inner{
   height: 150px;
@@ -204,12 +205,12 @@ body{
 .content_products_price_balon{
   text-align: center;
   padding-top: 8px;
-  font-family: 'Source Serif Pro', serif;
+  ffont-family: var(--fonts-family) ;
 }
 .content_products_text_inner{
   font-size: 17px;
   margin: 5px 20px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 
 
@@ -223,11 +224,11 @@ body{
 .content_form_title{
   text-align: center;
   color: var(--blue-color);
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .content_form_input_inner{
   margin-left: 25px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .content_form_input{
   /* margin-left: 5px; */
@@ -241,7 +242,7 @@ body{
   background-color: #fff;
   border: 1px solid var(--blue-color);
   border-radius: 3px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .content_form_send{
   margin-top: 15px;
@@ -254,7 +255,7 @@ body{
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
   border-radius: 3px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 
 
@@ -269,28 +270,28 @@ body{
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .about_water_titel{
   color: var(--blue-color);
   text-align: center;
   padding-top: 0;
   margin-top: 0;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .about_water_text{
   margin: 15px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .about_water_list{
   margin-right: 15px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .about_water_text_right{
   margin: 0 ;
   margin-right: 15px;
   text-align: right;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 
 
@@ -308,7 +309,7 @@ body{
   text-align: center;
   color: var(--blue-color);
   margin: 15px 5px 0px 5px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .content_certificates_inner{
   display: flex;
@@ -335,11 +336,11 @@ body{
 .franchising_titel_inner{
   text-align: center;
   color: var(--blue-color);
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .franchising_text_inner{
   margin: 0 15px 0 15px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: var(--fonts-family) ;
 }
 .franchising_img_inner{
   display: block;

@@ -294,12 +294,17 @@ body{
 .content_certificates_inner{
   display: flex;
   flex-direction:column;
-  align-items: center;
 }
 .certificates{
-  width: 45%;
+  /* width: 45%; */
+  text-align: center;
   margin-top: 8px;
 }
+
+
+
+
+
 
 
 

@@ -205,7 +205,7 @@ body{
 .content_products_price_balon{
   text-align: center;
   padding-top: 8px;
-  ffont-family: var(--fonts-family) ;
+  font-family: var(--fonts-family) ;
 }
 .content_products_text_inner{
   font-size: 17px;

@@ -12,9 +12,20 @@ body{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+@media screen and (min-width: 900px){
+  .conteiner{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 .header_inner{
   background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header_logo{
   width: 200px;
@@ -27,9 +38,39 @@ body{
   width: 30px;
   height: 30px;
 }
+@media screen and (min-width: 900px){
+  .header_menu_img{
+    display: none;
+  }
+}
+.navigacia{
+  display: none;
+}
+@media screen and (min-width: 900px){
+  .navigacia{
+    display: flex;
+  }
+}
 .akcia{
   width: 90%;
   margin-left: 5%;
+}
+@media screen and (min-width: 900px) {
+  .akcia{
+    width: 90%;
+    margin-left: 0;
+  }
+  .akcia_foto{
+    width: 50%;
+  }
+  .content_inner_index{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .content_inner_text{
+    text-align: center;
+  }
 }
 .zamovlenya{
   color: #0c24ad;
@@ -37,11 +78,21 @@ body{
   font-size: 16px;
   font-family: var(--fonts-family);
 }
+@media screen and (min-width: 900px){
+  .zamovlenya{
+    font-size: 25px;
+  }
+}
 .zamovlenya_text{
   padding-left: 5px;
   color: #0c24ad;
   font-size: 14px;
   font-family: var(--fonts-family);
+}
+@media screen and (min-width: 900px){
+  .zamovlenya_text{
+    font-size: 18px;
+  }
 }
 .number_content_inner{
   color: black;
@@ -62,7 +113,12 @@ body{
   padding-bottom: 20px;
 
 }
-
+@media screen and (min-width: 900px){
+  .video_inner{
+    width: 45%;
+    height: 370px;
+  }
+}
 .footer_text{
   margin-top: 30px;
   text-align: center;
@@ -100,6 +156,11 @@ body{
 .popup:target{
   opacity: 1;
   visibility: visible;
+}
+@media screen and (min-width: 600px){
+  .popup:target{
+    opacity: 0;
+  }
 }
 .popup:target .popup_content{
   transform: translate(0px, 0px);
@@ -141,8 +202,13 @@ body{
 }
 .popup_list_content{
  list-style: none;
- padding: 0px;
+ padding: 0;
  margin: 0;
+}
+@media screen and (min-width: 900px){
+  .popup_list_content{
+    display: flex;
+  }
 }
 .popup_menu{
   font-size: 20px;
@@ -153,7 +219,18 @@ body{
   color: black;
   font-family: var(--fonts-family) ;
 }
-
+@media screen and (min-width: 900px){
+  .popup_menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+  .popup_menu_link:hover{
+    color: var(--blue-color);
+    font-size: 105%;
+  }
+}
 
 
 

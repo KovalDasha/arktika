@@ -246,6 +246,22 @@ body{
   align-items: center;
   margin-top: 20px;
 }
+@media screen and (min-width: 900px) {
+  .content_products{
+    width: 30%;
+    justify-content: flex-start;
+  }
+  .content_products_inner{
+    width: 95%;
+  }
+  .content_inner_products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 0;
+  }
+}
 .content_products_inner{
   display: flex;
   flex-direction:column;
@@ -279,6 +295,20 @@ body{
   padding-bottom: 8px;
   padding-top: 8px;
 }
+@media screen and (min-width: 900px) {
+  .dystyl_water{
+    margin-bottom: 24px;
+  }
+  .content_products_price_balon{
+    font-size: 120%;
+  }
+  .content_products_title{
+    font-size: 130%;
+  }
+  .content_products_text_inner{
+    font-size: 120%;
+  }
+}
 .content_products_price_balon{
   text-align: center;
   padding-top: 8px;
@@ -302,6 +332,15 @@ body{
   text-align: center;
   color: var(--blue-color);
   font-family: var(--fonts-family) ;
+}
+@media screen and (min-width: 900px) {
+  .content_form_title{ 
+    font-size: 130%;
+  }
+  .content_form_input_inner{
+    font-size: 120%;
+    padding-left: 25px;
+  }
 }
 .content_form_input_inner{
   margin-left: 25px;
@@ -334,6 +373,17 @@ body{
   border-radius: 3px;
   font-family: var(--fonts-family) ;
 }
+@media screen and (min-width: 900px) {
+  .content_form_send{
+    font-size: 130%;
+  }
+  .content_form_input{
+    height: calc(2.25rem + 5px);
+  }
+}
+
+
+
 
 
 
@@ -370,6 +420,18 @@ body{
   text-align: right;
   font-family: var(--fonts-family) ;
 }
+.laptop_version{
+  display: none;
+}
+@media screen and (min-width: 900px) {
+ .laptop_version{
+    display: block;
+ }
+ .content_inner_about_water{
+   margin: 0 50px;
+ }
+}
+
 
 
 
@@ -426,4 +488,14 @@ body{
   width: 60%;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+@media screen and (min-width: 900px) {
+  .franchising_img_inner{
+    width: 20%;
+  }
+  .franchising_text_inner{
+    font-size: 120%;
+  }
+  .franchising_titel_inner{
+  }
 }

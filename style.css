@@ -96,13 +96,18 @@ select:active, select:focus{
   }
   .content_inner_index{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
   .content_inner_text{
     text-align: center;
   }
 }
+@media screen and (min-width: 1200px){
+  .content_inner_text{
+  }
+}
+
 .zamovlenya{
   color: #0c24ad;
   text-align: center;
@@ -387,7 +392,7 @@ select:active, select:focus{
   font-size: 1rem;
   color: #000000;
   background-color: #fff;
-  border: 1px solid var(--blue-color);
+  border: 2px solid var(--main-color);
   border-radius: 3px;
   font-family: var(--fonts-family) ;
 }
@@ -405,11 +410,29 @@ select:active, select:focus{
   font-family: var(--fonts-family) ;
 }
 @media screen and (min-width: 900px) {
+  .content_form_input_inner{
+    /* margin-left: 0;
+    padding-left: 0; */
+    margin-left: 33%;
+    margin-bottom: 10px;
+  }
   .content_form_send{
-    font-size: 130%;
+    font-size: 140%;
+    height: calc(2.25rem + 10px);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .content_form_send:hover{
+    background-color: var(--blue-color);
+    border: #0c24ad 1px solid;
+    color: #fff;
   }
   .content_form_input{
-    height: calc(2.25rem + 5px);
+    /* height: calc(2.25rem + 5px); */
+    width: 30%;
+  }
+  .content_form_input:hover{
+    border: var(--blue-color) 2px solid;
   }
 }
 
@@ -429,6 +452,7 @@ select:active, select:focus{
   margin-bottom: 0;
   padding-bottom: 0;
   font-family: var(--fonts-family) ;
+  font-size: 140%;
 }
 .about_water_titel{
   color: var(--blue-color);
@@ -436,12 +460,19 @@ select:active, select:focus{
   padding-top: 0;
   margin-top: 0;
   font-family: var(--fonts-family) ;
+  font-size: 140%;
 }
 .about_water_text{
   margin: 15px;
   font-family: var(--fonts-family) ;
+  font-size: 125%;
 }
 .about_water_list{
+  margin-right: 15px;
+  font-family: var(--fonts-family) ;
+  font-size: 125%;
+}
+.about_water_list1{
   margin-right: 15px;
   font-family: var(--fonts-family) ;
 }
@@ -450,6 +481,7 @@ select:active, select:focus{
   margin-right: 15px;
   text-align: right;
   font-family: var(--fonts-family) ;
+  font-size: 140%;
 }
 .laptop_version{
   display: none;
@@ -525,7 +557,6 @@ select:active, select:focus{
     width: 25%;
     float: right;
     margin-left: 20px;
-    margin-right: 40px;
   }
   .franchising_text_inner{
     font-size: 120%;
@@ -534,5 +565,8 @@ select:active, select:focus{
     font-size: 180%;
     padding-bottom: 20px;
     padding-top: 10px;
+  }
+  .content_franchising_inner{
+    margin: 0 50px;
   }
 }
